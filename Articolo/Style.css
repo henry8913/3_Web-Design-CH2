@@ -1,0 +1,39 @@
+/* mobile-first design */
+
+body {
+    width: 100vh;
+    margin: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #612308;
+    font-size: 1em;
+    background-color: white;
+    padding: 75px;
+}
+
+article {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    background-color: #fef7e2;
+    border-radius: 30px;
+    padding: 30px;
+}
+
+.image-container {
+    margin: auto;
+    display: flex;
+    justify-content: center;   
+}
+
+img {
+    width: 100%;
+    object-fit: cover;
+    padding-bottom: 10vh;
+}
+
+.article h1 {
+    padding-top: 10vh;
+}
+
+article .article {
+    flex: 1 1 500px;
+}

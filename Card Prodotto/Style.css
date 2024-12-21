@@ -1,0 +1,80 @@
+/* mobile-first design */
+
+body {
+    width: 100vw;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1em;
+    background-color: white;
+}
+
+main {
+    background-color: #FAF7E3;
+    border-radius: 10vw;
+    width: 100vw;
+    margin: auto;
+    padding: 0;
+}
+
+.product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vw;
+}
+
+.bio {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10vw;
+}
+.price {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bio h1 {
+    margin-bottom: 0;
+}
+
+.bio p {
+    margin-top: 0;
+}
+
+.price h1 {
+    font-weight: normal;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    background-color: #F4E086;
+    border: none;
+    border-radius: 5vw;
+    padding: 2vw;
+    width: 70vw;
+    font-size: 1em;
+    margin: 5vw 0;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 100vw;
+    height: auto;
+    object-fit: cover;
+    border-top-left-radius: 10vw;
+    border-top-right-radius: 10vw;
+}
